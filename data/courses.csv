@@ -1,0 +1,338 @@
+course_id,code,name,description,prerequisites,department,semester,credits
+ENT201,ENT201,Foundations of Entrepreneurship,Introduction to Foundations of Entrepreneurship,[],All,3,4
+ECE215,ECE215,Circuit Theory and Devices,Introduction to Circuit Theory and Devices,[],"Electronics & Communication Engineering
+",3,4
+ENT202,ENT202,Social Entrepreneurship,Introduction to Social Entrepreneurship,[],All,3,4
+BIO211,BIO211,Cell Biology and Biochemistry,Basic understanding of Cell Biology and Biochemistry,[],All,3,4
+BIO214,BIO214,Genetics and Molecular Biology,Introduction to Genetics and Molecular Biology,[],All,3,4
+CSE121,CSE121,Discrete Mathematics,Introduction to Discrete Mathematics,[],"Computer Science and Social Sciences
+",3,4
+CSE231,CSE231,Operating Systems),Introduction to Operating Systems,[],All,3,4
+DES201,DES201,Design Processes and Perspectives,Introduction to Design Processes and Perspectives,[],All,3,4
+MTH210,MTH210,Discrete Structures,Introduction to Discrete Structures,[],All,3,4
+MTH211,MTH211,Number Theory,Introduction to Number Theory,[],"Computer Science and Engineering
+",3,4
+MTH240,MTH240,Real Analysis I,Introduction to Real Analysis,[],"Computer Science and Engineering
+",3,4
+ECE250,ECE250,Signals and Systems,Introduction to Signals and Systems,[],"Electronics & Communication Engineering
+",3,4
+SSH240,SSH240,Politics in Digital Era,Introduction to Politics in Digital Era,[],All,3,4
+MTH203,MTH203,Maths 3: Multivariate Calculus,Introduction to Multivariate Calculus,[],All,3,4
+SSH201,SSH201,Research Methods in Social Science and Design,Introduction to Research Methods in Social Science and Design,[],"Computer Science and Social Sciences
+",3,4
+BIO221,BIO221,Practical Bioinformatics,Introduction to Practical Bioinformatics,[],Computer Science and Biosciences,4,4
+CSE342,CSE342,Statistical Machine Learning,Introduction to Statistical Machine Learning,['CSE102A;CSE102B'],"Computer Science and Engineering
+",4,4
+ECE356,ECE356,Statistical Machine Learning,Introduction to Statistical Machine Learning,['CSE102A;CSE102B'],"Computer Science and Engineering
+",4,4
+DES205,DES205,Design of Interactive Systems,Introduction to design of interactive systems,['DES101'],"Computer Science and Design
+",4,4
+DES206,DES206,Prototyping Interactive Systems,Introduction to prototyping interactive systems,['DES101'],"Computer Science and Design
+",4,4
+ECE214,ECE214,Integrated Electronics,Advanced Electronics Concepts,['ECE113A;ECE113B'],"Electronics & Communication Engineering
+",4,4
+ECE230,ECE230,Fields and Waves,Introduction to fields and waves,['ECE113A;ECE113B'],"Electronics & Communication Engineering
+",4,4
+ECE240,ECE240,Principles of Communication Systems,Introduction to principles of communication systems,['ECE113A;ECE113B'],"Electronics & Communication Engineering
+",4,4
+ECE210,ECE210,Physics of Semiconductor Devices,Introduction to physics of semiconductor devices,['ECE113A;ECE113B'],"Electronics & Communication Engineering
+",4,4
+ECE211,ECE211,Electronic System Design,Introduction to electronic system design,['ECE113A;ECE113B'],"Electronics & Communication Engineering
+",4,4
+CSE202,CSE202,Fundamentals of Database Systems (Sec A),Introduction to Database Concepts and Design,['CSE102A;CSE102B'],"Computer Science and Engineering
+",4,4
+CSE222,CSE222,Analysis and Design of Algorithms (Sec A),Advanced algorithmic techniques,['CSE102A;CSE102B'],"Computer Science and Engineering
+",4,4
+MTH204,MTH204,Maths IV - ODE/PDE (Sec A),Introduction to ordinary differential equations and partial differential equations,['MTH204B;MTH203A;MTH203B'],All,4,4
+SOC216,SOC216,"Political Anthropology: State, Subject, Power","Introduction to Political Anthropology: State, Subject, Power",[],All,3,4
+SSH221,SSH221,Social & Political Philosophy,Introduction to Social & Political Philosophy,[],All,3,4
+MTH212,MTH212,Abstract Algebra I,Introduction to Abstract Algebra,[],Computer Science and Applied Mathematics,4,4
+MTH377,MTH377,Convex Optimization,Introduction to convex optimization,[],"Computer Science and Social Sciences
+",4,4
+ECO221,ECO221,Econometrics I,Introduction to econometrics,['MTH201A;MTH201B'],"Computer Science and Social Sciences
+",4,4
+SOC213,SOC213,Introduction to Digital Ethnography,Introduction to digital ethnohraphy,[],"Computer Science and Social Sciences
+",4,4
+SSH215,SSH215,Nation and her Narratives,Nation and her narratives,[],All,4,4
+SOC210,SOC210,Sociological Theory,Introduction to sociological theory,[],All,4,4
+ESC207,ESC207,"Ecology, Evolution, and Environment","Introduction to ecology, evolution, and environment",[],All,4,4
+ECO524,ECO524,Spatial Statistics and Spatial Econometrics,Introduction to spatial statistics and spatial econometrics,[],All,4,4
+SOC309,SOC309,Image Screen Interface,Introduction to image screen interface,[],All,4,4
+SSH522,SSH522,Philosophy of Technology,Introduction to philosophy of technology,[],All,4,4
+PSY302,PSY302,Social Psychology,Introduction to social psychology,[],All,4,4
+MTH372,MTH372,Statistical Inference,Study of statistical inference techniques used in data science and AI,[],Computer Science and Applied Mathematics,6,4
+MTH374,MTH374,Linear Optimization,Study of optimization techniques in mathematical and real-world scenarios,[],Computer Science and Applied Mathematics,6,4
+SSH322,SSH322,Philosophy of Technology,Exploration of technological evolution and its ethical implications,[],"Computer Science and Social Sciences
+",6,4
+MTH300,MTH300,Introduction to Mathematical Logic,Study of logic and its applications in computing and mathematics,[],Computer Science and Applied Mathematics,6,4
+ECO324,ECO324,Spatial Statistics and Spatial Econometrics,Study of spatial statistical methods and econometrics applications,[],"Computer Science and Social Sciences
+",6,4
+ENT304,ENT304,Digital Technologies and Social Entrepreneurship,Exploring the role of digital technologies in social entrepreneurship,[],"Computer Science and Social Sciences
+",6,4
+ENT305,ENT305,"Social Innovation, Corporate Social Responsibility, and Sustainable Development","Introduction to social innovation, corporate social responsibility, and sustainable development",[],All,4,4
+CSE530,CSE530,Computational Methods in Game Theory,Study of computational techniques applied to game theory problems,['CSE320'],"Computer Science and Engineering
+",5,4
+CSE502,CSE502,Artificial Intelligence,Introduction to artificial intelligence concepts and techniques,['CSE201'],"Computer Science and Engineering
+",5,4
+CSE507,CSE507,Trustworthy Deep Learning,Techniques for ensuring trustworthiness and robustness in deep learning models,['CSE320'],"Computer Science and Engineering
+",5,4
+SSH614,SSH614,Water and Nature,"Exploration of water resources, nature conservation, and sustainability",[],"Computer Science and Social Sciences
+",5,4
+ECE518,ECE518,Modern Digital Communications,Study of modern digital communication systems and techniques,['ECE312'],"Electronics & Communication Engineering
+",5,4
+MTH541,MTH541,Quantum Mechanics,Fundamentals of quantum mechanics and applications in computing,['MTH340'],Computer Science and Applied Mathematics,5,4
+ECE512,ECE512,Advanced Electromagnetic Radiation & Metamaterials,Study of electromagnetic wave propagation and metamaterials,['ECE320'],"Electronics & Communication Engineering
+",5,4
+ECE509,ECE509,Instrumentation and Measurement,Techniques for measurement and instrumentation in engineering systems,['ECE312'],"Electronics & Communication Engineering
+",5,4
+BIO361,BIO361,Biophysics,Study of physical principles in biological systems,[],Computer Science and Biosciences,5,4
+CSE546,CSE546,Applied Cryptography,Explores cryptographic techniques and their real-world applications,['CSE342'],"Computer Science and Engineering
+",5,4
+CSE634,CSE634,Algorithmic Techniques for Robot Planning,Study of motion planning and optimization for robotic applications,['CSE201'],"Computer Science and Engineering
+",5,4
+DES534,DES534,Extended Reality in Industry,Explores AR/VR applications in industrial contexts,[],"Computer Science and Design
+",5,4
+ECE677,ECE677,Advances in Deep Learning,Advanced topics in deep learning including generative models,['ECE564'],"Electronics & Communication Engineering
+",5,4
+ECE524,ECE524,Quantum Materials & Devices,Study of materials and devices used in quantum computing,[],"Electronics & Communication Engineering
+",5,4
+ECE550,ECE550,Radar Systems,Study of radar technologies and applications,[],"Electronics & Communication Engineering
+",6,4
+CSE535,CSE535,Mobile Computing,Study of mobile network architectures and applications,[],"Computer Science and Engineering
+",6,4
+MTH523,MTH523,Probabilistic Methods in Combinatorics,Introduction to probabilistic techniques in combinatorial mathematics,['MTH340'],Computer Science and Applied Mathematics,5,4
+SSH513,SSH513,Enhancement Technologies and the Body: Beyond the Human Form,Exploration of human enhancement technologies and ethical implications,[],"Computer Science and Social Sciences
+",5,4
+ECO301,ECO301,Microeconomics,Study of fundamental economic principles and market behaviors,[],"Computer Science and Social Sciences
+",5,4
+CSE512,CSE512,Computational Methods,Study of numerical and computational techniques for problem-solving,['CSE201'],"Computer Science and Engineering
+",5,4
+CSE514,CSE514,Computer Graphics,"Fundamentals of computer graphics, rendering, and visualization techniques",['CSE201'],"Computer Science and Engineering
+",5,4
+CSE521,CSE521,Deep Learning and Machine Learning,Introduction to deep learning architectures and applications in machine learning,['CSE320'],"Computer Science and Engineering
+",5,4
+ECE533,ECE533,Parallel Algorithms,Study of parallel computation techniques and multi-threaded programming,['ECE312'],"Electronics & Communication Engineering
+",5,4
+ECE523,ECE523,Bayesian Artificial Intelligence,Study of Bayesian inference methods in AI applications,['ECE551'],"Electronics & Communication Engineering
+",5,4
+ECE511,ECE511,Advanced Digital Design and Verification,Exploration of digital design methodologies and hardware verification techniques,['ECE312'],"Electronics & Communication Engineering
+",5,4
+ECE542,ECE542,Digital Image Processing,Fundamentals of image processing and computer vision techniques,['ECE312'],"Electronics & Communication Engineering
+",5,4
+MTH531,MTH531,Computational Modeling Methods,Study of computational techniques used in scientific modeling,['MTH340'],Computer Science and Applied Mathematics,5,4
+SSH623,SSH623,Technology and Future Work,Exploration of future work practices and the role of technology,[],"Computer Science and Social Sciences
+",5,4
+BIO542,BIO542,Machine Learning for Biomedical Applications,Introduction to machine learning and its applications in biomedical science,[],Computer Science and Biosciences,5,4
+CSE232,CSE232,Computer Networks,"Fundamentals of computer networks, protocols, and data communication",['CSE231'],"Computer Science and Engineering
+",5,4
+DES522,DES522,"Inclusive Design, Universal Design & Accessibility",Understanding inclusive and accessible design principles,[],"Computer Science and Design
+",5,4
+ECE551,ECE551,Bayesian Machine Learning,Introduction to Bayesian methods in machine learning,['ECE501'],"Electronics & Communication Engineering
+",5,4
+MTH340,MTH340,Real Analysis II,Advanced topics in real analysis including measure theory,['MTH240'],Computer Science and Applied Mathematics,5,4
+SSH711,SSH711,Data and Society,Exploring the intersection of data science and societal impacts,[],"Computer Science and Social Sciences
+",5,4
+PSY307,PSY307,Neuroscience of Decision Making,Understanding human decision-making processes using neuroscience,[],"Computer Science and Social Sciences
+",5,4
+BIO511,BIO511,Cell Biology and Biochemistry (PG),"Study of cell structure, function, and biochemical processes",[],Computer Science and Biosciences,5,4
+CSE525,CSE525,Introduction to Graduate Algorithms,Advanced algorithmic techniques and problem-solving strategies,['CSE201'],"Computer Science and Engineering
+",5,4
+DES305,DES305,3D Animation Film Making,Techniques and workflows for creating 3D animated films,[],"Computer Science and Design
+",5,4
+ECE314,ECE314,Digital VLSI Design,Design principles and methodologies for VLSI circuits,['ECE211'],"Electronics & Communication Engineering
+",5,4
+SSH622,SSH622,Corporate Innovation,Study of innovation strategies in corporate environments,[],"Computer Science and Social Sciences
+",5,4
+BIO532,BIO532,Advanced Bioinformatics,Study of bioinformatics algorithms and computational techniques in biology,[],Computer Science and Biosciences,5,4
+SSH601,SSH601,Chinese Language,Introduction to the Chinese language and basic communication skills,[],"Computer Science and Social Sciences
+",5,4
+CSE511,CSE511,Data Science,"Concepts and applications in data science, including statistical learning",['CSE201'],"Computer Science and Engineering
+",5,4
+ECE528,ECE528,Fundamentals of Analog Electronics,Introduction to analog circuit design and signal processing,['ECE211'],"Electronics & Communication Engineering
+",5,4
+ECE531,ECE531,Control Automation,Study of control system design and automation techniques,['ECE312'],"Electronics & Communication Engineering
+",5,4
+ECE521,ECE521,Quantum Computing and Networks,Exploration of quantum computing principles and quantum networking,[],"Electronics & Communication Engineering
+",5,4
+MTH533,MTH533,Statistical Pattern Analysis,Study of statistical methods for pattern recognition and machine learning,['MTH340'],Computer Science and Applied Mathematics,5,4
+SSH612,SSH612,Foundations of Economics,Introduction to economic principles and theories,[],"Computer Science and Social Sciences
+",5,4
+CSE556,CSE556,Natural Language Processing,Study of computational techniques for understanding and processing natural language,[],"Computer Science and Engineering
+",6,4
+ECE564,ECE564,Reinforcement Learning,Study of reinforcement learning algorithms and applications,['ECE551'],"Electronics & Communication Engineering
+",5,4
+ECE539,ECE539,Wireless System Implementation,Techniques for implementing and optimizing wireless communication systems,['ECE531'],"Electronics & Communication Engineering
+",5,4
+ECO311,ECO311,Game Theory,Mathematical modeling of strategic interactions in competitive environments,[],"Computer Science and Social Sciences
+",5,4
+SSH700,SSH700,Knowledge Production: Context and Concepts,Exploration of knowledge production processes across disciplines,[],"Computer Science and Social Sciences
+",5,4
+ENT415,ENT415,New Venture Planning,Fundamentals of developing and structuring new business ventures,[],"Computer Science and Social Sciences
+",5,4
+BIO514,BIO514,Foundations of Molecular Biology,Fundamental principles and techniques of molecular biology,[],Computer Science and Biosciences,5,4
+CSE421,CSE421,Distributed Programming,Concepts and techniques for developing distributed systems and applications,['CSE320'],"Computer Science and Engineering
+",5,4
+DES414,DES414,User Experience Research,Methods and strategies for conducting UX research in design projects,[],"Computer Science and Design
+",5,4
+ECE312,ECE312,Digital Signal Processing,Fundamentals of digital signal processing and applications in communication systems,['ECE211'],"Electronics & Communication Engineering
+",5,4
+ECE431,ECE431,VLSI Design Fundamentals,Basic principles and methodologies in VLSI system design,['ECE314'],"Electronics & Communication Engineering
+",5,4
+MTH526,MTH526,Topics in Mathematical Analysis,Advanced topics in mathematical analysis and real function theory,['MTH340'],Computer Science and Applied Mathematics,5,4
+ECO321,ECO321,Behavioral Economics,Study of psychological factors affecting economic decision-making,[],"Computer Science and Social Sciences
+",5,4
+SSH512,SSH512,Sociology of Education,Exploration of social aspects influencing education systems,[],"Computer Science and Social Sciences
+",5,4
+MTH542,MTH542,Mathematical Logic,Study of logic and its applications in mathematical reasoning,['MTH340'],Computer Science and Applied Mathematics,5,4
+CSD525,CSD525,Scientific Computing and Visualization,Techniques for scientific computing and visual representation of data,[],"Computer Science and Design
+",6,4
+ECE543,ECE543,Design and Verification of Processors,"Study of microprocessor design, verification, and testing methodologies",['ECE312'],"Electronics & Communication Engineering
+",5,4
+DES518,DES518,Advanced Topics in Design,Exploration of advanced design methodologies and emerging trends,[],"Computer Science and Design
+",5,4
+CSE544,CSE544,Intelligent Robotics,"Introduction to robotic perception, planning, and AI-driven control",['CSE320'],"Computer Science and Engineering
+",5,4
+MTH532,MTH532,Game AI,Study of artificial intelligence in game development and decision-making,['MTH340'],Computer Science and Applied Mathematics,5,4
+BIO543,BIO543,Big Data Mining in Healthcare,Study of big data mining techniques applied to healthcare applications,[],Computer Science and Biosciences,6,4
+CSE344,CSE344,Computer Vision,Study of algorithms and techniques in computer vision and image processing,[],"Computer Science and Engineering
+",6,4
+MTH310,MTH310,Graph Theory,Introduction to graph theory concepts and their applications in computing,[],Computer Science and Applied Mathematics,6,4
+CSE345,CSE345,Foundations to Computer Security,Introduction to computer security principles and cryptographic systems,[],"Computer Science and Engineering
+",6,4
+BIO548,BIO548,Human Microbiome Data Science,Study of human microbiome and data-driven analysis techniques,[],Computer Science and Biosciences,6,4
+CSE523,CSE523,Randomized Algorithms,Exploration of randomized algorithms and probabilistic techniques,[],"Computer Science and Engineering
+",6,4
+ECE513,ECE513,Mobile Communication,Study of mobile communication systems and their evolution,[],"Electronics & Communication Engineering
+",6,4
+CSD520,CSD520,Computational Interaction & Product Design,Exploration of computational approaches in product design and interaction,[],"Computer Science and Design
+",6,4
+ECE562,ECE562,Memory Design and Test,Study of memory circuits and their testability techniques,[],"Electronics & Communication Engineering
+",6,4
+SSH501,SSH501,Foundations of Management,Introduction to fundamental principles of management and strategy,[],"Computer Science and Social Sciences
+",6,4
+SSH502,SSH502,Venture Planning and Management,Study of venture planning and strategies for business growth,[],"Computer Science and Social Sciences
+",6,4
+CSE542,CSE542,Speech Processing,Study of techniques for speech recognition and processing,[],"Computer Science and Engineering
+",6,4
+CSE301,CSE301,Compilers,Study of compilers and translation techniques,[],"Computer Science and Engineering
+",6,4
+BIO531,BIO531,Introduction to Mathematical Biology,Study of mathematical models applied to biological systems,[],Computer Science and Biosciences,6,4
+CSE615,CSE615,Explainable AI,Study of techniques to make AI systems more interpretable,[],"Computer Science and Engineering
+",6,4
+ECE666,ECE666,Applied Optimization Methods for Machine Learning,Exploration of optimization techniques in machine learning,[],"Electronics & Communication Engineering
+",6,4
+ECE366,ECE366,Neural Engineering and Implantable Devices,Study of neural engineering principles and implantable medical devices,[],"Electronics & Communication Engineering
+",6,4
+SSH333,SSH333,Macroeconomics,Introduction to macroeconomic principles and policies,[],"Computer Science and Social Sciences
+",6,4
+MTH548,MTH548,Advanced Topics in Partial Differential Equations,Study of advanced partial differential equations and their applications,[],Computer Science and Applied Mathematics,6,4
+MTH551,MTH551,Quantum Information Theory,Study of quantum computing principles and information theory,[],Computer Science and Applied Mathematics,6,4
+CSE524,CSE524,Theory of Modern Cryptography,Study of cryptographic techniques used in modern security applications,[],"Computer Science and Engineering
+",6,4
+ECE555,ECE555,Wireless Communication Engineering,Exploration of modern wireless communication technologies,[],"Electronics & Communication Engineering
+",6,4
+DES512,DES512,Game Design and Development,Introduction to game design principles and development strategies,[],"Computer Science and Design
+",6,4
+SSH702,SSH702,Advanced Political Anthropology,Study of political anthropology and its impact on societies,[],"Computer Science and Social Sciences
+",6,4
+CSE583,CSE583,Software Development using Open Source,Study of open-source software development and best practices,[],"Computer Science and Engineering
+",6,4
+CSE622,CSE622,Introduction to Quantum Computing,Exploration of quantum computing principles and applications,[],"Computer Science and Engineering
+",6,4
+CSE655,CSE655,Network Science,Study of network science and its computational applications,[],"Computer Science and Engineering
+",6,4
+SSH210,SSH210,Sociological Theory,Introduction to sociological theories and their real-world applications,[],"Computer Science and Social Sciences
+",6,4
+BIO541,BIO541,Data Sciences for Genomics,Application of data science techniques to genomics research,[],Computer Science and Biosciences,6,4
+DES521,DES521,Fundamentals of Video for Engineers,Study of video engineering principles and their applications,[],"Computer Science and Design
+",6,4
+SSH306,SSH306,Learning and Memory,Exploration of cognitive processes related to learning and memory,[],"Computer Science and Social Sciences
+",6,4
+CSE666,CSE666,Advanced Computer Networks,Study of advanced networking concepts and architectures,[],"Computer Science and Engineering
+",6,4
+MTH311,MTH311,Combinatorics and Its Applications,Introduction to combinatorial mathematics and its practical applications,[],Computer Science and Applied Mathematics,6,4
+SSH313,SSH313,Sociology/Anthropology of India: Themes and Perspectives,Study of sociological and anthropological themes in India,[],"Computer Science and Social Sciences
+",6,4
+SSH305,SSH305,Attention and Perception,Exploration of cognitive processes related to attention and perception,[],"Computer Science and Social Sciences
+",6,4
+CSE343,CSE343,Machine Learning,Study of machine learning algorithms and applications,[],"Computer Science and Engineering
+",6,4
+CSE350,CSE350,Network Security,Study of security threats and defenses in networked environments,[],"Computer Science and Engineering
+",6,4
+ECE572,ECE572,Estimation Theory for Dynamic Systems,Mathematical techniques for estimation in dynamic systems,[],"Electronics & Communication Engineering
+",6,4
+ECE537,ECE537,Applied Fields & Waves,Study of electromagnetic fields and their applications,[],"Electronics & Communication Engineering
+",6,4
+SSH413,SSH413,Entrepreneurial Finance,Study of financial decision-making in entrepreneurial ventures,[],"Computer Science and Social Sciences
+",6,4
+CSE667,CSE667,Decision Making for Multi-Robot Systems,Study of decision-making algorithms for autonomous robots,[],"Computer Science and Engineering
+",6,4
+BIO522,BIO522,Algorithms in Computational Biology,Study of algorithmic techniques in computational biology,[],Computer Science and Biosciences,6,4
+CSE322,CSE322,Theory of Computation,"Study of formal languages, automata, and computability theory",[],"Computer Science and Engineering
+",6,4
+CSE513,CSE513,Parallel Runtimes for Modern Processors,Study of parallel computing paradigms and runtime environments,[],"Computer Science and Engineering
+",6,4
+CSE572,CSE572,Speech and Audio Processing,Introduction to processing techniques for speech and audio data,[],"Computer Science and Engineering
+",6,4
+HCD521,HCD521,Design for AI-Driven Products,Study of human-centered AI design principles,[],"Computer Science and Design
+",6,4
+SSH325,SSH325,Ethics in AI,Examination of ethical considerations in artificial intelligence,[],"Computer Science and Social Sciences
+",6,4
+CSE653,CSE653,Topics in Cryptanalysis,Study of advanced topics in cryptanalysis,[],"Computer Science and Engineering
+",6,4
+MTH322,MTH322,Probability Theory,Introduction to probability theory and its applications,[],Computer Science and Applied Mathematics,6,4
+BIO545,BIO545,Biostatistics,Study of statistical methods in biological research,[],Computer Science and Biosciences,6,4
+CSE641,CSE641,Deep Learning,Comprehensive study of deep learning architectures and applications,[],"Computer Science and Engineering
+",6,4
+HCD531,HCD531,Tangible User Interfaces,Design and evaluation of tangible user interfaces,[],"Computer Science and Design
+",6,4
+CSE354,CSE354,Networks and System Security II,Advanced study of network security and system defenses,[],"Computer Science and Engineering
+",6,4
+SOC509,SOC509,Image Screen Interface,Study of screen-based interfaces and social implications,[],"Computer Science and Social Sciences
+",6,4
+SSH721,SSH721,Advanced Readings in Moral and Political Philosophy,Philosophical readings on moral and political theory,[],"Computer Science and Social Sciences
+",6,4
+ECE573,ECE573,Advanced Embedded Logic Design,Advanced techniques in embedded system design,[],"Electronics & Communication Engineering
+",6,4
+SSH377,SSH377,Convex Optimization,Optimization techniques using convex methods,[],"Computer Science and Social Sciences
+",6,4
+MTH510,MTH510,Advanced Linear Algebra,"Study of vector spaces, eigenvalues, and linear mappings",[],Computer Science and Applied Mathematics,6,4
+HCD520,HCD520,Human-Centered AI,AI-driven systems with a human-centered approach,[],"Computer Science and Design
+",6,4
+CSE638,CSE638,Graduate Systems,Study of distributed and large-scale systems,[],"Computer Science and Engineering
+",6,4
+BIO563,BIO563,Computer-Aided Drug Design,Computational methods in drug discovery,[],Computer Science and Biosciences,6,4
+ECE599,ECE599,Research Methods,Research methodologies and techniques for advanced studies.,[],"Electronics & Communication Engineering
+",6,2
+BIO213,BIO213,Introduction to Quantitative Biology,"Discussion on some fundamental aspects of ecological, evolutionary, genetics, and epidemic models as studied by quantitative approaches.",,Computer Science and Biosciences,3,4
+BIO551,BIO551,Programming for Computational Biologists,Introduction to programming techniques for bioinformatics and computational biology,[],Computer Science and Biosciences,5,4
+MTH100,MTH100,Mathematics I: Linear Algebra,Introduction to Linear Algebra and Matrices,[],All,1,4
+COM101,COM101,Communication Skills,Introduction to Communication Skills and Group Discussions,[],All,1,4
+DES102,DES102,Introduction to HCI,Introduction to Human Computer Interaction,[],All,1,4
+ECE111,ECE111,Digital Circuits,Introduction to Digital Circuits and Gates,[],All,1,4
+BIO102,BIO102,Foundations of Biology I,Introduction to Fundamental Biological Concepts,[],All,2,4
+CSE101,CSE101,Introduction to Programming,Introduction to programming concepts with Python,[],All,1,4
+CSE140,CSE140,Introduction to Intelligent Systems,Introduction to intelligent systems,[],"Computer Science and AI
+",2,4
+DES101,DES101,Design Drawing and Visualization,Introduction to Design Drawing and Visualization,[],"Computer Science and Design
+",2,4
+DES202,DES202,Visual Design & Communication,Introduction to Visual Design and Communication,[],"Computer Science and Design
+",2,4
+SSH101,SSH101,Critical Thinking and Readings in Social Sciences,Introduction to Critical Thinking and Readings in Social Sciences,[],All,2,4
+CSE201,CSE201,Advance Programming,Introduction to Advanced Programming,[],All,3,4
+ECE113,ECE113,Basic Electronics,Introduction to Basic Electronics,[],"Electronics & Communication Engineering
+",2,4
+ECO223,ECO223,Money and Banking,Introduction to Money and Banking,[],"Computer Science and Social Sciences
+",2,4
+ECE270,ECE270,Embedded Logic and Design,Introduction to Embedded Logic and Design,[],"Electronics & Communication Engineering
+",3,4
+BIO571,BIO571,"Healthcare, Innovation and Entrepreneurship Essentials",Core level understanding of healthcare startups and a study of real world case studies.,,Computer Science and Biosciences,6,2
+BIP398,BIP398,Independent Project,Independent Project,,All,6,4
+CSE102,CSE102,Data Structures and Algorithms,Introduction to Data structures and Algorithms,[],"Computer Science and Engineering
+",2,4
+CSE112,CSE112,Computer Organisation,Introduction to Computer Organization,[],"Computer Science and Engineering
+",2,4
+MTH201,MTH201,Probability and Statistics,Introduction to Probability and Statistics,[],All,2,4
+SOC101,SOC101,Introduction to Sociology and Anthropology,Introduction to Sociology and Anthropology,[],"Computer Science and Social Sciences
+",2,4
+BTP498,BTP498,BTech Project,BTech Project,,All,6,4

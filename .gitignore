@@ -10,7 +10,6 @@ __pycache__/
 # The deployed API doesn't need the raw training data.
 *.xlsx
 *.json
-data/
 
 # IDE and OS files
 .vscode/
