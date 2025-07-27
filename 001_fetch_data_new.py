@@ -36,26 +36,40 @@ DEFAULT_RATING_FOR_UNKNOWN_GRADE = 3.0 # A neutral rating for unmapped grades
 # --- Fetch Courses Data ---
 def fetch_courses_data():
     print("Fetching courses data...")
-    # Select relevant columns for content-based filtering
-    response = supabase.table('courses').select('id, code, name, description, prerequisites, department, semester, credits').execute()
-    if response.data:
-        courses_df = pd.DataFrame(response.data)
-        courses_df.rename(columns={'id': 'course_id'}, inplace=True) # Standardize column name
-        print(f"Fetched {len(courses_df)} courses.")
-        courses_df.to_csv('data/courses.csv', index=False)
-        return courses_df
-    else:
-        print("No courses data found or error fetching courses.")
+    # Since there's no dedicated courses table, we'll extract unique course information
+    # from the user_semester_courses table
+    try:
+        response = supabase.table('user_semester_courses').select('course_uuid, course_acronym').execute()
+        if response.data:
+            courses_df = pd.DataFrame(response.data)
+            # Remove duplicates and create a proper courses dataframe
+            courses_df = courses_df.drop_duplicates(subset=['course_uuid'])
+            courses_df.rename(columns={'course_uuid': 'course_id', 'course_acronym': 'code'}, inplace=True)
+            
+            # Add placeholder columns for missing data (you can populate these later)
+            courses_df['name'] = courses_df['code']  # Use code as name for now
+            courses_df['description'] = ''  # Empty for now
+            courses_df['prerequisites'] = ''  # Empty for now
+            courses_df['department'] = ''  # Empty for now
+            courses_df['semester'] = ''  # Empty for now
+            courses_df['credits'] = 0  # Default to 0 for now
+            
+            print(f"Fetched {len(courses_df)} unique courses from user_semester_courses.")
+            courses_df.to_csv('data/courses.csv', index=False)
+            return courses_df
+        else:
+            print("No courses data found in user_semester_courses.")
+            return pd.DataFrame()
+    except Exception as e:
+        print(f"Error fetching courses data: {e}")
         return pd.DataFrame()
 
 # --- Fetch Student Completed Courses Data (Interactions for CF) ---
-# In 01_fetch_data_new.py
-
 def fetch_student_interactions_data():
     print("Fetching student completed courses data (interactions)...")
     try:
         response = supabase.table('user_semester_courses') \
-                           .select('user_id, course_id, grade, status') \
+                           .select('user_id, course_uuid, grade, status') \
                            .eq('status', 'completed') \
                            .execute()
 
@@ -97,6 +111,9 @@ def fetch_student_interactions_data():
             print("DEBUG: Raw interactions_df before grade mapping:")
             print(interactions_df.head())
 
+            # Rename course_uuid to course_id for consistency
+            interactions_df.rename(columns={'course_uuid': 'course_id'}, inplace=True)
+
             interactions_df['rating'] = interactions_df['grade'].str.upper().map(GRADE_TO_RATING_MAPPING)
             interactions_df['rating'] = interactions_df['rating'].fillna(DEFAULT_RATING_FOR_UNKNOWN_GRADE)
 
@@ -117,6 +134,7 @@ def fetch_student_interactions_data():
         empty_df = pd.DataFrame(columns=['user_id', 'course_id', 'rating'])
         empty_df.to_csv('data/student_interactions.csv', index=False)
         return empty_df
+
 # --- Fetch Student Preferences/Interests Data ---
 def fetch_student_preferences_data():
     print("Fetching student preferences/interests data...")

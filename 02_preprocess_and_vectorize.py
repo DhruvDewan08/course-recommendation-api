@@ -42,7 +42,7 @@ def process_course_content():
 def process_student_preferences():
     """Processes student preferences for content-based profiling."""
     print("--- 2. Processing Student Preferences ---")
-    df = pd.read_csv('data/student_preferences.csv')
+    df = pd.read_csv('data/student_preferences_cleaned.csv')
     df['processed_interests'] = df['interests_combined'].apply(preprocess_text)
     print("Student preferences processed.")
     return df
