@@ -9,7 +9,7 @@ def train_cf_model():
     """Trains and saves a Collaborative Filtering model using the Surprise library."""
     print("--- 1. Loading Student Interaction Data ---")
     try:
-        interactions_df = pd.read_csv('data/student_interactions_cleaned.csv')
+        interactions_df = pd.read_csv('data/student_interactions_cleaned.csv', dtype={'user_id': str})
     except FileNotFoundError:
         print("ERROR: 'data/student_interactions.csv' not found. Please run previous scripts first.")
         return

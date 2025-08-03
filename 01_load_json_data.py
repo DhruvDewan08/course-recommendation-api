@@ -1,4 +1,4 @@
-# Filename: 01_load_json_data.py
+# Filename: 01_load_json_data.py (Corrected for String IDs)
 import pandas as pd
 import os
 
@@ -34,6 +34,10 @@ def process_interactions_from_json(file_path):
     df_completed['rating'] = df_completed['grade'].str.strip().str.upper().map(GRADE_TO_RATING_MAPPING)
     df_completed['rating'].fillna(DEFAULT_RATING_FOR_UNKNOWN_GRADE, inplace=True)
     
+    # --- THIS IS THE FIX ---
+    # Ensure user_id is a string before saving
+    df_completed['user_id'] = df_completed['user_id'].astype(str)
+    
     final_df = df_completed[['user_id', 'course_id', 'rating']]
     output_path = os.path.join(OUTPUT_DATA_DIR, INTERACTIONS_OUTPUT_FILENAME)
     final_df.to_csv(output_path, index=False)
@@ -56,6 +60,10 @@ def process_preferences_from_json(file_path):
             
     df['interests_combined'] = df[text_cols].agg(' '.join, axis=1)
     df['interests_combined'] = df['interests_combined'].str.replace(r'\s+', ' ', regex=True).str.strip()
+    
+    # --- THIS IS THE FIX ---
+    # Ensure user_id is a string before saving
+    df['user_id'] = df['user_id'].astype(str)
     
     final_df = df[['user_id', 'interests_combined']]
     output_path = os.path.join(OUTPUT_DATA_DIR, PREFERENCES_OUTPUT_FILENAME)
