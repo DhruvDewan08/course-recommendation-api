@@ -1,0 +1,14 @@
+# Git
+.git/
+.gitignore
+
+# Local Data and Secrets
+*.xlsx
+*.json
+.env
+
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+.venv/
+venv/
